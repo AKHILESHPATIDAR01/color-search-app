@@ -87,20 +87,8 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
-.boxui {
-    width: 200px;
-    /* border: 1px solid rgb(82, 78, 78); */
-    border-radius: 20px;
-    height: 200px;
-    text-align: center;
-    margin: 20px;
-    box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
 .colorbox {
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
     width: 200px;
     height: 80%;
     display: flex;
@@ -116,7 +104,6 @@
 
 @media screen and (max-width:600px) {
     .box {
-        /* display: grid; */
         grid-template-columns: repeat(2, 1fr);
     }
     .boxui {
@@ -124,7 +111,6 @@
         height: 150px;
         text-align: center;
         margin: 20px;
-        /* display: flex; */
     }
     .colorbox {
         width: 150px;
@@ -135,7 +121,6 @@
 
 @media screen and (min-width:600px) {
     .box {
-        /* display: grid; */
         grid-template-columns: repeat(3, 1fr);
     }
     .boxui {
@@ -143,11 +128,14 @@
         height: 150px;
         text-align: center;
         margin: 20px;
-        /* display: flex; */
     }
     .colorbox {
         width: 150px;
         height: 80%;
+    }
+
+    .hexa-name {
+        font-size: 12px;
     }
 }
 
@@ -155,7 +143,6 @@
 
 @media screen and (min-width:900px) {
     .box {
-        /* display: grid; */
         grid-template-columns: repeat(5, 1fr);
     }
     .boxui {
@@ -163,11 +150,14 @@
         height: 150px;
         text-align: center;
         margin: 20px;
-        /* display: flex; */
     }
     .colorbox {
         width: 150px;
         height: 80%;
+    }
+
+    .hexa-name {
+        font-size: 10px;
     }
 }
 

@@ -46,19 +46,19 @@ const MultipleColor = () => {
                                     {col.name.toLowerCase().includes("black") ?
                                     <>
                                         <div className="colorbox" style={{backgroundColor:col.hex, color:'white'}}>
-                                            {col.hex}
+                                            <p className="hexa-color">{col.hex}</p>
                                         </div>
                                         <div className="hexname">
-                                            {col.name}
+                                            <p className="hexa-name">{col.name} </p>
                                         </div>
                                     </>
                                     :
                                     <>
                                         <div className="colorbox" style={{backgroundColor:col.hex}}>
-                                            {col.hex}
+                                            <p className="hexa-color">{col.hex} </p>
                                         </div>
                                         <div className="hexname">
-                                            {col.name}
+                                            <p className="hexa-name">{col.name} </p>
                                         </div>
                                     </>
                                 }
